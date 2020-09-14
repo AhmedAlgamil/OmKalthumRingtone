@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Ringtones</string>
+    <string name="facebook">facebook</string>
+    <string name="about_me">about me</string>
+    <string name="youtube">youtube</string>
+    <string name="twitter">twitter</string>
+    <string name="insta">instegram</string>
+    <string name="download">download</string>
+
+    <string name="error_title">Error</string>
+    <string name="download_first">Download First by click play button</string>
+    <string name="not_find">the File is not here</string>
+    <string name="ok">ok</string>
+    <string name="close">close</string>
+    <string name="error_connection">Connection Error! \n Downlaod it again</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="download_play">Downloading And Playing</string>
+    <string name="ringtone_successful">RingTone is</string>
+    <string name="set_as_notification">Set as Notification</string>
+    <string name="set_as_ringtone">Set As RingTone</string>
+
+    <string name="banner_ads" translatable="false">ca-app-pub-2008695252233572/5387317880</string>
+</resources>

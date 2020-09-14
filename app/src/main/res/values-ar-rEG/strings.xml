@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نغماتي</string>
+    <string name="facebook">فيس بوك</string>
+    <string name="about_me">تابعوني</string>
+    <string name="youtube">يوتيوب</string>
+    <string name="twitter">تويتر</string>
+    <string name="insta">انستجرام</string>
+    <string name="download">تنزيل</string>
+    <string name="error_title">خطأ</string>
+    <string name="download_first">قم بتنزيله اولا</string>
+    <string name="not_find">الملف غير موجود</string>
+    <string name="ok">موافق</string>
+    <string name="close">اقفل</string>
+    <string name="error_connection">خطأ في الشبكة \n قم بتنزيله مجددا</string>
+    <string name="rate_us">تقييمك يهمنا</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="download_play">Downloading And Playing</string>
+    <string name="ringtone_successful">RingTone is</string>
+    <string name="set_as_notification">Set as Notification</string>
+    <string name="set_as_ringtone">Set As RingTone</string>
+</resources>

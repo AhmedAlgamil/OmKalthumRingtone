@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ringtone.MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_ring_tone"
+        tools:itemCount="10"
+        />
+
+    <ImageView
+        android:src="@drawable/facebook"
+        android:id="@+id/facebook"
+        android:tooltipText="@string/facebook"
+        style="@style/standard_image_viwe" />
+
+    <ImageView
+        android:src="@drawable/youtube"
+        android:id="@+id/youtube"
+        android:tooltipText="@string/youtube"
+        style="@style/standard_image_viwe"/>
+
+    <ImageView
+        android:src="@drawable/twitter"
+        android:id="@+id/twitter"
+        android:tooltipText="@string/twitter"
+        style="@style/standard_image_viwe" />
+
+    <ImageView
+        android:src="@drawable/insta"
+        android:id="@+id/insta"
+        android:tooltipText="@string/insta"
+        style="@style/standard_image_viwe"/>
+
+    <ImageView
+        android:src="@drawable/rate_us"
+        android:id="@+id/rate_us"
+        android:tooltipText="@string/rate_us"
+        style="@style/standard_image_viwe"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:src="@drawable/about_me"
+        android:id="@+id/about_me"
+        android:tooltipText="@string/about_me"
+        style="@style/standard_image_vie" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ads"
+        android:layout_alignParentBottom="true"
+        >
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
